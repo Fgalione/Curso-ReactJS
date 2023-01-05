@@ -5,7 +5,7 @@ import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode> //StrictMode ejecuta dos veces, una de prueba y otra ejecucion normal
-  <App />
+  <React.StrictMode> 
+    <App />
   </React.StrictMode>
 );
