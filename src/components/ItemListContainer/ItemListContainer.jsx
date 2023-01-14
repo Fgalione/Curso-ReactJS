@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import {useParams} from "react-router-dom";
 import ItemList from '../ItemList/ItemList.jsx';
 import {consultarBDD} from '../../assets/funciones.js';
+// import { cargarBDD } from '../../assets/firebase.js';
 
 
 //Consulta base de datos
